@@ -1,0 +1,497 @@
+*{
+ box-sizing: border-box;
+}
+body{
+ width: 100%;
+ margin: 0;
+}
+.container{
+ width:960px;
+ min-height: 700px;
+ background-color:white;
+ margin: auto;
+}
+
+/* Header style section*/
+.container .header {
+ display: flex;
+ width: 100%;
+ height: 30px;
+ justify-content: space-between;
+ align-items: center;
+ background-color: silver;
+}
+.container .header .one{
+ width:1%;
+ height: 1px;
+ padding: 4px;
+ border-radius: 100%;
+ background-color: gray;
+}
+.container .header .two{
+ width:1%;
+ height: 1px;
+ padding: 4px;
+ border-radius: 100%;
+ background-color: gray
+}
+.container .header .three{
+ width:1%;
+ height: 10px;
+ padding: 5px;
+/* read on padding position */
+ border-radius:100% 0 0 100%;
+ background-color: gray;
+}
+.container .header .four{
+ width:92%;
+ height: 15px;
+ padding: 4px;
+ background-color: white;
+}
+.container .header .five{
+ width:1%;
+ height: 5px;
+ padding: 5px;
+ border-radius: 100%;
+ background-color: gray;
+}
+.container .header .six{
+ width:1%;
+ height: 5px;
+ padding: 5px;
+ border-radius: 100%;
+ background-color: gray;
+}
+.container .header .seven{
+ width:1%;
+ height: 5px;
+ padding: 5px;
+ border-radius: 100%;
+ background-color: gray;
+}
+.container .top{
+ display: flex;
+ width: 100%;
+ height:50px;
+ margin-top: 10px;
+ background-color: silver;
+ align-items: center;
+ justify-content: space-between;
+}
+.container .top .top1{
+ width: 3%;
+ height: 20px;
+ border-radius: 100%;
+ background-color: gray;
+ padding: 15px;
+ margin-left: 5px;
+}
+
+.container .top .top2{
+ width: 50%;
+ height: 20px;
+ padding: 15px;
+}
+.container .top .top3{
+ width: 13%;
+ height: 20px;
+ padding: 15px;
+ background-color: gray;
+}
+.container .top .top4{
+ width: 13%;
+ height: 20px;
+ padding: 15px;
+ background-color: gray;
+}
+.container .top .top5{
+ width: 13%;
+ height: 20px;
+ padding: 15px;
+ background-color: gray;
+}
+.container .body{
+ display: flex;
+ width: 100%;
+ height: 300px;
+ margin-top: 10px;
+ justify-content: space-between;
+}
+.container .body .main{
+ width: 49%;
+ height: 100%;
+ background-color:silver;
+}
+.container .body .aside{
+ display: flex;
+ flex-direction: column;
+ width: 49%;
+ height: 100%;
+ background-color: silver;
+ 
+}
+.container .body .aside .top-main{
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ height: 57%;
+
+}
+.container .body .aside .top-main .top-main1{
+ width: 70%;
+ height: 20px;
+ background-color:gray;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+.container .body .aside .top-main .top-main2{
+ width: 95%;
+ height: 10px;
+ background-color:rgb(150, 143, 143);
+ margin-top: 25px;
+ margin-left: 10px;
+}
+.container .body .aside .top-main .top-main3{
+ width: 95%;
+ height: 10px;
+ background-color: rgb(150, 143, 143);;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+.container .body .aside .top-main .top-main4{
+ width: 95%;
+ height: 10px;
+ background-color:rgb(150, 143, 143);;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+.container .body .aside .top-main .top-main5{
+ width: 65%;
+ height: 10px;
+ background-color: rgb(150, 143, 143);;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+.container .body .aside .bottom-main{
+ width: 100%;
+ height: 43%;
+ background-color: silver;
+}
+.container .body .aside .bottom-main .bottom-main1{
+ width: 95%;
+ height: 10px;
+ background-color:silver;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+.container .body .aside .bottom-main .bottom-main2{
+ width: 95%;
+ height: 10px;
+ background-color:silver;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+.container .body .aside .bottom-main .bottom-main3{
+ width: 95%;
+ height: 10px;
+ background-color:silver;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+.container .body .aside .bottom-main .bottom-main4{
+ width: 65%;
+ height: 10px;
+ background-color:silver;
+ margin-top: 10px;
+ margin-left: 10px;
+}
+.container .section{
+ display: flex;
+ width: 100%;
+ height: 150px;
+ margin-top: 10px;
+ justify-content: space-between;
+}
+.container .section .section1{
+ height: 100%;
+ width: 32%;
+ background-color: silver;
+}
+.container .section .section2{
+ height: 100%;
+ width: 32%;
+ background: silver;
+}
+.container .section .section3{
+ height: 100%;
+ width: 32%;
+ background-color: silver;
+}
+.container .my-section{
+display: flex;
+width: 100%;
+height: 20px;
+margin-top: 10px;
+justify-content: space-between;
+}
+.container .my-section .my-section1{
+ height: 100%;
+ width: 20%;
+ background: gray;
+}
+.container .my-section .my-section2{
+ height: 100%;
+ width: 20%;
+ background: gray;
+margin-right: 3px;
+}
+.container .my-section .my-section3{
+ height: 100%;
+ width: 20%;
+ background: rgb(150, 143, 143);
+ margin-right: 113px;
+}
+.container .division{
+ display: flex;
+ width: 100%;
+ height:10px;
+ justify-content: space-between;
+ margin-top: 5px;
+}
+.container .division .division1{
+ width: 32%;
+ height: 100%;
+ background-color: rgb(150, 143, 143);
+}
+.container .division .division2{
+ width: 32%;
+ height: 100%;
+ background-color: rgb(150, 143, 143);
+}
+.container .division .division3{
+ width: 32%;
+ height: 100%;
+ background-color: rgb(150, 143, 143);
+}
+.container .main-footer{
+ width: 100%;
+ height: 180px;
+ background-color: silver;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.container .main-footer .main-footer1{
+ display: flex;
+ justify-content: space-evenly;
+ width: 100%;
+ height: 15px;
+}
+.container .main-footer .main-footer2{
+ width: 20%;
+ height: 15px;
+ margin-top: 15px;
+ background-color:grey ;
+}
+.container .main-footer .main-footer3{
+ width: 20%;
+ height: 15px;
+ margin-top: 15px;
+ background-color:grey ;
+}
+.container .main-footer .main-footer4{
+ width: 20%;
+ height: 15px;
+ margin-top: 15px;
+ background-color:grey ;
+}.container .main-footer .main-footer5{
+ width: 20%;
+ height: 15px;
+ background-color:grey ;
+ margin-top: 15px;
+}
+.container .main-footer .first-footer{
+ display: flex;
+ width: 100%;
+ height: 15px;
+ justify-content: space-evenly;
+}
+.container .main-footer .second-footer{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 20px;
+}
+.container .main-footer .third-footer{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 20px;
+}
+.container .main-footer .fourth-footer{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 20px;
+}
+.container .main-footer .fifth-footer{
+ width: 20%;
+ height: 15px;
+ margin-top: 20px;
+ display: flex;
+ justify-content: space-around;
+
+}
+.container .main-footer .fifth-footer .subclass1{
+ width: 3%;
+ height: 15px;
+ background-color:gray;
+}
+.container .main-footer .fifth-footer .subclass2{
+ width: 3%;
+ height: 15px;
+ background-color:gray;
+}
+.container .main-footer .fifth-footer .subclass3{
+ width: 3%;
+ height: 15px;
+ background-color:gray;
+}
+.container .main-footer .fifth-footer .subclass4{
+ width: 3%;
+ height: 15px;
+ background-color:gray;
+}
+.container .main-footer .fifth-footer .subclass5{
+ width: 3%;
+ height: 15px;
+ background-color:gray;
+}
+.container .main-footer .lastfooter{
+ display: flex;
+ width: 100%;
+ height: 15px;
+ justify-content: space-evenly;
+}
+.container .main-footer .lastfooter .lastfooter1{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 30px;
+}
+.container .main-footer .lastfooter .lastfooter2{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 30px;
+}
+.container .main-footer .lastfooter .lastfooter3{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 30px;
+}
+.container .main-footer .lastfooter .lastfooter4{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 30px;
+}
+.container .main-footer .futa{
+ display: flex;
+ width: 100%;
+ height: 15px;
+ justify-content: space-evenly;
+}
+.container .main-footer .futa .futa1{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 40px;
+}
+.container .main-footer .futa .futa2{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 40px;
+}
+.container .main-footer .futa .futa3{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 40px;
+}
+.container .main-footer .futa .futa4{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 40px;
+}
+.container .main-footer .fulta{
+ display: flex;
+ width: 100%;
+ height: 15px;
+ justify-content: space-evenly;
+}
+.container .main-footer .fulta .fulta1{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 50px;
+}
+.container .main-footer .fulta .fulta2{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 50px;
+}
+.container .main-footer .fulta .fulta3{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 50px;
+}
+.container .main-footer .fulta .fulta4{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 50px;
+}
+.container .main-footer .forta{
+ display: flex;
+ width: 100%;
+ height: 15px;
+ justify-content: space-evenly;
+}
+.container .main-footer .forta1{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 60px;
+}
+
+.container .main-footer .forta1{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 60px;
+}
+.container .main-footer .forta2{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 60px;
+}
+.container .main-footer .forta3{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 60px;
+}
+
+.container .main-footer .forta4{
+ width: 20%;
+ height: 15px;
+ background-color:gray;
+ margin-top: 60px;
+}
